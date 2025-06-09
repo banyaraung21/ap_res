@@ -3,9 +3,9 @@
 @section('content')
 <div class="container-fluid">
 <div class="card">
-        <div class="bg-primary card-header">
-            <h1>Create Form</h1>
-
+        <div class="card-header">
+            <h3 class="card-title">Create Form</h3 class="card-title">
+            <a href="/dish" class="btn btn-warning" style="float:right">Back</a>
         </div>
 
         <div class="card-body">
@@ -39,16 +39,16 @@
                     @endforeach
                     </select>
                 </div>
-
                 <div class="form-group">
                     <label for="">Image</label><br>
                     <input type="file" name="dish_image">
                 </div>
 
+
                 <button type="submit" class="btn btn-success">Submit</button>
                 </form>
 
-        <a href="dish" class="btn btn-warning" >Back</a>
+
 
         </div>
     </div>

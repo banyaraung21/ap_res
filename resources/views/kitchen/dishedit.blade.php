@@ -43,7 +43,7 @@
 
                 <div class="form-group">
                     <label for="">Image</label><br>
-                    <img src="{{ asset('/images/' . $dish->image) }}" width="100" height="100"><br><br>
+                    <img src="{{ asset('/images/' . $dish->dish_image) }}" width="100" height="100"><br><br>
                     <input type="file" name="dish_image">
                 </div>
 
